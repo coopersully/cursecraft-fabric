@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cc:block/starwood_slab"
+    },
+    "type=double": {
+      "model": "cc:block/starwood_planks"
+    },
+    "type=top": {
+      "model": "cc:block/starwood_slab_top"
+    }
+  }
+}

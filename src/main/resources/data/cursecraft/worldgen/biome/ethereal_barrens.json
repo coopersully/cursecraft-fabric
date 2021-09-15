@@ -1,0 +1,22 @@
+{
+  "surface_builder": "minecraft:nope",
+  "depth": -0.45,
+  "scale": 0.0,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "none",
+  "effects": {
+    "sky_color": 16775853,
+    "fog_color": 16775045,
+    "water_color": 1760767,
+    "water_fog_color": 96178,
+    "grass_color": 732220,
+    "foliage_color": 732220
+  },
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

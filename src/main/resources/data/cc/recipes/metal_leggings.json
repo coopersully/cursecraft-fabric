@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "cc:metal_plate"
+    }
+  },
+  "result": {
+    "item": "cc:metal_leggings"
+  }
+}

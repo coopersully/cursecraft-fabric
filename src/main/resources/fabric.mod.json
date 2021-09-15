@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cc",
+  "version": "${version}",
+
+  "name": "Cursecraft",
+  "description": "Cursecraft is a modification for Minecraft: Java Edition that aims to do one thing: expand the survival experience. This single mod creates a modpack-like experience with minimal installation, a connected storyline, and so much more. The goal of this datapack is to completely overhaul the survival experience; Cursecraft adds brand new questlines, items, blocks, mobs, game mechanics, dimensions, and so much more.",
+  "authors": [
+    "Cooper Sullivan (Curse)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/cc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.coopersully.Cursecraft.Main"
+    ]
+  },
+  "mixins": [
+    "cc.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

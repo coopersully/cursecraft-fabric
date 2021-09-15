@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "cc:metal_scrap"
+    }
+  },
+  "result": {
+    "item": "cc:metal_block",
+    "count": 1
+  }
+}

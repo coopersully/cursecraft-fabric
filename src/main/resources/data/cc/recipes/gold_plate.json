@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii",
+    "ii"
+  ],
+  "key": {
+    "i": {
+      "item": "cc:reinforced_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "cc:gold_plate",
+    "count": 1
+  }
+}

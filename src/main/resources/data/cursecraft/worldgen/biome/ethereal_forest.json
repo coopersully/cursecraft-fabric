@@ -1,0 +1,72 @@
+{
+  "surface_builder": "minecraft:grass",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "temperature_modifier": "none",
+  "category": "forest",
+  "player_spawn_friendly": true,
+  "effects": {
+    "sky_color": 16775853,
+    "fog_color": 16775045,
+    "water_color": 1760767,
+    "water_fog_color": 96178,
+    "grass_color": 2026397,
+    "foliage_color": 2026397
+  },
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+      "cursecraft:trees_blue"
+    ],
+    [
+      "cursecraft:trees_red"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:ore_copper",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+	[
+      "minecraft:amethyst_geode"
+	],
+    [
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone"
+    ],
+    [
+      "minecraft:patch_tall_grass",
+      "minecraft:glow_lichen",
+      "minecraft:flower_warm",
+      "minecraft:patch_grass_savanna",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water"
+    ]
+  ]
+}

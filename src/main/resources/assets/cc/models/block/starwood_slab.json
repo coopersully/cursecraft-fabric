@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "cc:block/starwood_planks",
+    "top": "cc:block/starwood_planks",
+    "side": "cc:block/starwood_planks"
+  }
+}

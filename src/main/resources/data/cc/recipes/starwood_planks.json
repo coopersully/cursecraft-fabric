@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cc:starwood_log"
+    }
+  ],
+  "result": {
+    "item": "cc:starwood_planks",
+    "count": 4
+  }
+}

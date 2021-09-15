@@ -1,0 +1,35 @@
+{
+  "surface_builder": "minecraft:nope",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 16711680,
+    "water_fog_color": 8196626,
+    "grass_color": 5066061,
+    "foliage_color": 5066061,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 1200,
+      "block_search_extent": 0,
+      "offset": 0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.1
+    }
+  },
+  "starts": [
+    "minecraft:nether_fossil"
+  ],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

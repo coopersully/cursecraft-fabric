@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cc:batteries"
+    },
+    {
+      "item": "cc:metal_scrap"
+    },
+    {
+      "item": "cc:tape"
+    }
+  ],
+  "result": {
+    "item": "cc:computer_parts",
+    "count": 1
+  }
+}
