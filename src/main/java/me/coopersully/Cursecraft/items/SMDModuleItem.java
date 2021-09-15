@@ -1,24 +1,18 @@
-package me.coopersully.Cursecraft.registry.Item;
+package me.coopersully.Cursecraft.items;
 
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
-import net.minecraft.util.Hand;
-import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SMDModule extends Item {
+public class SMDModuleItem extends Item {
 
-    public SMDModule(Settings settings) {
+    public SMDModuleItem(Settings settings) {
         super(settings);
     }
 

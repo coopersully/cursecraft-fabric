@@ -1,16 +1,14 @@
-package me.coopersully.Cursecraft.registry.Enchantments;
+package me.coopersully.Cursecraft.enchantments;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 
-public class InfusedSlowness extends Enchantment {
+public class SafetyEnchantment extends Enchantment {
 
-    public InfusedSlowness(Rarity weight, EnchantmentTarget target, EquipmentSlot[] equipmentSlots) {
+    public SafetyEnchantment(Rarity weight, EnchantmentTarget target, EquipmentSlot[] equipmentSlots) {
         super(weight, target, equipmentSlots);
     }
 
@@ -21,15 +19,16 @@ public class InfusedSlowness extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 3;
+        return 1;
     }
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
 
         if (target instanceof LivingEntity) {
-            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, level * (20 * 3), level - 1));
+            target.kill();
         }
 
     }
+
 }

@@ -1,12 +1,15 @@
 package me.coopersully.Cursecraft.registry;
 
 import me.coopersully.Cursecraft.Main;
-import me.coopersully.Cursecraft.registry.ArmorMaterials.MetalArmorMaterial;
-import me.coopersully.Cursecraft.registry.Item.AristotellianCompass;
-import me.coopersully.Cursecraft.registry.Item.BogieBlaster;
-import me.coopersully.Cursecraft.registry.Item.SMDModule;
-import me.coopersully.Cursecraft.registry.Item.WonderBox;
-import me.coopersully.Cursecraft.registry.ToolMaterials.*;
+import me.coopersully.Cursecraft.armorMaterials.MetalArmorMaterial;
+import me.coopersully.Cursecraft.items.AristotellianCompassItem;
+import me.coopersully.Cursecraft.items.BogieBlasterItem;
+import me.coopersully.Cursecraft.items.SMDModuleItem;
+import me.coopersully.Cursecraft.items.WonderBoxItem;
+import me.coopersully.Cursecraft.toolMaterials.BlankAxeItem;
+import me.coopersully.Cursecraft.toolMaterials.BlankHoeItem;
+import me.coopersully.Cursecraft.toolMaterials.BlankPickaxeItem;
+import me.coopersully.Cursecraft.toolMaterials.ReinforcedGold;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -40,16 +43,16 @@ public class ccItems {
     public static final Item UNDEAD_ESSENCE = new Item(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.RARE));
     public static final Item UNIVERSE_ESSENCE = new Item(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.EPIC));
     public static final Item VOIDIAN_ESSENCE = new Item(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.RARE));
-    public static final WonderBox WONDER_BOX = new WonderBox(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.RARE));
+    public static final WonderBoxItem WONDER_BOX = new WonderBoxItem(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.RARE));
 
-    public static final AristotellianCompass ARISTOTELLIAN_COMPASS = new AristotellianCompass(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.RARE));
-    public static final BogieBlaster BOGIE_BLASTER = new BogieBlaster(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.EPIC));
+    public static final AristotellianCompassItem ARISTOTELLIAN_COMPASS = new AristotellianCompassItem(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.RARE));
+    public static final BogieBlasterItem BOGIE_BLASTER = new BogieBlasterItem(new Item.Settings().group(ccItems.CURSECRAFT).rarity(Rarity.EPIC));
 
     public static final Item REINFORCED_GOLD_INGOT = new Item(new Item.Settings().group(ccItems.CURSECRAFT));
     public static final Item GOLD_PLATE = new Item(new Item.Settings().group(ccItems.CURSECRAFT));
 
     public static final Item STICKY_SLIME = new Item(new Item.Settings().group(ccItems.CURSECRAFT));
-    public static final Item SMD_MODULE = new SMDModule(new Item.Settings().group(ccItems.CURSECRAFT));
+    public static final Item SMD_MODULE = new SMDModuleItem(new Item.Settings().group(ccItems.CURSECRAFT));
 
     // Tools & Weapons
     public static ToolItem REINFORCED_GOLD_SWORD = new SwordItem(ReinforcedGold.TOOL_MATERIAL, 1, -1.6f, new Item.Settings().group(ccItems.CURSECRAFT));

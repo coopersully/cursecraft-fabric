@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.Block;
+package me.coopersully.Cursecraft.blocks;
 
 import net.minecraft.block.CraftingTableBlock;
 

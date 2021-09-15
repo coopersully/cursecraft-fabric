@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.StatusEffects;
+package me.coopersully.Cursecraft.statusEffects;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.AttributeContainer;

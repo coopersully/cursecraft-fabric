@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.Enchantments;
+package me.coopersully.Cursecraft.enchantments;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;

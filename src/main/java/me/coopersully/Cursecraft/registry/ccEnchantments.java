@@ -1,7 +1,11 @@
 package me.coopersully.Cursecraft.registry;
 
 import me.coopersully.Cursecraft.Main;
-import me.coopersully.Cursecraft.registry.Enchantments.*;
+import me.coopersully.Cursecraft.enchantments.SafetyEnchantment;
+import me.coopersully.Cursecraft.enchantments.SiphoningEnchantment;
+import me.coopersully.Cursecraft.enchantments.infused.PoisonEnchantment;
+import me.coopersully.Cursecraft.enchantments.infused.SlownessEnchantment;
+import me.coopersully.Cursecraft.enchantments.infused.WeaknessEnchantment;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;
@@ -26,19 +30,19 @@ public class ccEnchantments {
             mainhand
     );
 
-    public static final Enchantment InfusedSlowness = new InfusedSlowness(
+    public static final Enchantment InfusedSlowness = new SlownessEnchantment(
             Enchantment.Rarity.RARE,
             EnchantmentTarget.WEAPON,
             mainhand
     );
 
-    public static final Enchantment InfusedPoison = new InfusedPoison(
+    public static final Enchantment InfusedPoison = new PoisonEnchantment(
             Enchantment.Rarity.RARE,
             EnchantmentTarget.WEAPON,
             mainhand
     );
 
-    public static final Enchantment InfusedWeakness = new InfusedWeakness(
+    public static final Enchantment InfusedWeakness = new WeaknessEnchantment(
             Enchantment.Rarity.RARE,
             EnchantmentTarget.WEAPON,
             mainhand

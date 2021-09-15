@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.Item;
+package me.coopersully.Cursecraft.items;
 
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -11,9 +11,9 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class AristotellianCompass extends Item {
+public class AristotellianCompassItem extends Item {
 
-    public AristotellianCompass(Settings settings) {
+    public AristotellianCompassItem(Settings settings) {
         super(settings);
     }
 

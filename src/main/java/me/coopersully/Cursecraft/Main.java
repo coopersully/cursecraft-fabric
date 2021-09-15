@@ -1,7 +1,7 @@
 package me.coopersully.Cursecraft;
 
-import me.coopersully.Cursecraft.registry.Block.AdvancedWorkbench.AdvancedWorkbenchRecipeSerializer;
-import me.coopersully.Cursecraft.registry.Block.AdvancedWorkbench.AdvancedWorkbenchRecipeType;
+import me.coopersully.Cursecraft.blocks.AdvancedWorkbench.AdvancedWorkbenchRecipeSerializer;
+import me.coopersully.Cursecraft.blocks.AdvancedWorkbench.AdvancedWorkbenchRecipeType;
 import me.coopersully.Cursecraft.registry.ccBlocks;
 import me.coopersully.Cursecraft.registry.ccItems;
 import me.coopersully.Cursecraft.registry.ccStatusEffects;

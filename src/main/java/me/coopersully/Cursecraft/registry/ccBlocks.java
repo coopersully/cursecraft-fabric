@@ -1,8 +1,8 @@
 package me.coopersully.Cursecraft.registry;
 
 import me.coopersully.Cursecraft.Main;
-import me.coopersully.Cursecraft.registry.Block.AdvancedWorkbenchBlock;
-import me.coopersully.Cursecraft.registry.Block.StarwoodStairsBlock;
+import me.coopersully.Cursecraft.blocks.AdvancedWorkbenchBlock;
+import me.coopersully.Cursecraft.blocks.StarwoodStairsBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;

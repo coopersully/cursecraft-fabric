@@ -1,21 +1,21 @@
-package me.coopersully.Cursecraft.registry.ToolMaterials;
+package me.coopersully.Cursecraft.toolMaterials;
 
 import me.coopersully.Cursecraft.registry.ccItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ReinforcedGold implements ToolMaterial {
+public class Limbonic implements ToolMaterial {
 
-    public static final ReinforcedGold TOOL_MATERIAL = new ReinforcedGold();
+    public static final Limbonic TOOL_MATERIAL = new Limbonic();
 
     @Override
     public int getDurability() {
-        return 282;
+        return 1561;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 12.0f;
+        return 8.0f;
     }
 
     @Override
@@ -25,7 +25,7 @@ public class ReinforcedGold implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 0;
+        return 3;
     }
 
     @Override
@@ -35,7 +35,7 @@ public class ReinforcedGold implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ccItems.REINFORCED_GOLD_INGOT);
+        return Ingredient.ofItems(ccItems.VOIDIAN_ESSENCE);
     }
 
 }

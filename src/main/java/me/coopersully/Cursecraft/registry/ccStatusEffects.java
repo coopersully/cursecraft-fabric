@@ -1,7 +1,7 @@
 package me.coopersully.Cursecraft.registry;
 
 import me.coopersully.Cursecraft.Main;
-import me.coopersully.Cursecraft.registry.StatusEffects.DetachedStatusEffect;
+import me.coopersully.Cursecraft.statusEffects.DetachedStatusEffect;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

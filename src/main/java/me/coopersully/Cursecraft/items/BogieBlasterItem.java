@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.Item;
+package me.coopersully.Cursecraft.items;
 
 import me.coopersully.Cursecraft.registry.ccItems;
 import net.minecraft.entity.player.PlayerEntity;
@@ -13,9 +13,9 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class BogieBlaster extends Item {
+public class BogieBlasterItem extends Item {
 
-    public BogieBlaster(Settings settings) {
+    public BogieBlasterItem(Settings settings) {
         super(settings);
     }
 

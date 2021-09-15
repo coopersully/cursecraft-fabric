@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.ToolMaterials;
+package me.coopersully.Cursecraft.toolMaterials;
 
 import me.coopersully.Cursecraft.registry.ccItems;
 import net.minecraft.item.PickaxeItem;

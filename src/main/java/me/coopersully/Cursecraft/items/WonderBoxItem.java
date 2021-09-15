@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.Item;
+package me.coopersully.Cursecraft.items;
 
 import me.coopersully.Cursecraft.registry.ccItems;
 import net.minecraft.entity.EquipmentSlot;
@@ -20,9 +20,9 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class WonderBox extends Item {
+public class WonderBoxItem extends Item {
 
-    public WonderBox(Settings settings) {
+    public WonderBoxItem(Settings settings) {
         super(settings);
     }
 

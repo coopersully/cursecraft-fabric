@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.Enchantments;
+package me.coopersully.Cursecraft.enchantments.infused;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
@@ -8,9 +8,9 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
-public class InfusedPoison extends Enchantment {
+public class WeaknessEnchantment extends Enchantment {
 
-    public InfusedPoison(Rarity weight, EnchantmentTarget target, EquipmentSlot[] equipmentSlots) {
+    public WeaknessEnchantment(Rarity weight, EnchantmentTarget target, EquipmentSlot[] equipmentSlots) {
         super(weight, target, equipmentSlots);
     }
 
@@ -28,7 +28,7 @@ public class InfusedPoison extends Enchantment {
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
 
         if (target instanceof LivingEntity) {
-            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, level * (20 * 3), level - 1));
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, level * (20 * 3), level - 1));
         }
 
     }

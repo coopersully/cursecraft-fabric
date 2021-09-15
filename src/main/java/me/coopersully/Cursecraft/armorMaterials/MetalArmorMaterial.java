@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.ArmorMaterials;
+package me.coopersully.Cursecraft.armorMaterials;
 
 import me.coopersully.Cursecraft.registry.ccItems;
 import net.minecraft.entity.EquipmentSlot;

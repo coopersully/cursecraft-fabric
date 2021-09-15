@@ -1,4 +1,4 @@
-package me.coopersully.Cursecraft.registry.Block.AdvancedWorkbench;
+package me.coopersully.Cursecraft.blocks.AdvancedWorkbench;
 
 import com.google.gson.JsonObject;
 
