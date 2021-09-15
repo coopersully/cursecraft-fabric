@@ -9,7 +9,7 @@ import me.coopersully.Cursecraft.items.WonderBoxItem;
 import me.coopersully.Cursecraft.toolMaterials.BlankAxeItem;
 import me.coopersully.Cursecraft.toolMaterials.BlankHoeItem;
 import me.coopersully.Cursecraft.toolMaterials.BlankPickaxeItem;
-import me.coopersully.Cursecraft.toolMaterials.ReinforcedGold;
+import me.coopersully.Cursecraft.toolMaterials.ReinforcedGoldToolMaterial;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -55,11 +55,11 @@ public class ccItems {
     public static final Item SMD_MODULE = new SMDModuleItem(new Item.Settings().group(ccItems.CURSECRAFT));
 
     // Tools & Weapons
-    public static ToolItem REINFORCED_GOLD_SWORD = new SwordItem(ReinforcedGold.TOOL_MATERIAL, 1, -1.6f, new Item.Settings().group(ccItems.CURSECRAFT));
-    public static ToolItem REINFORCED_GOLD_PICKAXE = new BlankPickaxeItem(ReinforcedGold.TOOL_MATERIAL, 0, -1.2f, new Item.Settings().group(ccItems.CURSECRAFT));
-    public static ToolItem REINFORCED_GOLD_AXE = new BlankAxeItem(ReinforcedGold.TOOL_MATERIAL, 3, -0.8f, new Item.Settings().group(ccItems.CURSECRAFT));
-    public static ToolItem REINFORCED_GOLD_SHOVEL = new ShovelItem(ReinforcedGold.TOOL_MATERIAL, 0, -1.0f, new Item.Settings().group(ccItems.CURSECRAFT));
-    public static ToolItem REINFORCED_GOLD_HOE = new BlankHoeItem(ReinforcedGold.TOOL_MATERIAL, 0, -2.0f, new Item.Settings().group(ccItems.CURSECRAFT));
+    public static ToolItem REINFORCED_GOLD_SWORD = new SwordItem(ReinforcedGoldToolMaterial.TOOL_MATERIAL, 1, -1.6f, new Item.Settings().group(ccItems.CURSECRAFT));
+    public static ToolItem REINFORCED_GOLD_PICKAXE = new BlankPickaxeItem(ReinforcedGoldToolMaterial.TOOL_MATERIAL, 0, -1.2f, new Item.Settings().group(ccItems.CURSECRAFT));
+    public static ToolItem REINFORCED_GOLD_AXE = new BlankAxeItem(ReinforcedGoldToolMaterial.TOOL_MATERIAL, 3, -0.8f, new Item.Settings().group(ccItems.CURSECRAFT));
+    public static ToolItem REINFORCED_GOLD_SHOVEL = new ShovelItem(ReinforcedGoldToolMaterial.TOOL_MATERIAL, 0, -1.0f, new Item.Settings().group(ccItems.CURSECRAFT));
+    public static ToolItem REINFORCED_GOLD_HOE = new BlankHoeItem(ReinforcedGoldToolMaterial.TOOL_MATERIAL, 0, -2.0f, new Item.Settings().group(ccItems.CURSECRAFT));
 
     public static ToolItem LIMBONIC_SWORD = new SwordItem(ToolMaterials.DIAMOND, 0, 0, new Item.Settings().group(ccItems.CURSECRAFT));
     public static ToolItem LIMBONIC_PICKAXE = new BlankPickaxeItem(ToolMaterials.DIAMOND, 0, 0, new Item.Settings().group(ccItems.CURSECRAFT));
@@ -118,6 +118,16 @@ public class ccItems {
     );
 
     public static final BlockItem ADVANCED_WORKBENCH = new BlockItem(ccBlocks.ADVANCED_WORKBENCH, new Item.Settings()
+            .group(ccItems.CURSECRAFT)
+            .maxCount(64)
+    );
+
+    public static final BlockItem UNLAND = new BlockItem(ccBlocks.UNLAND, new Item.Settings()
+            .group(ccItems.CURSECRAFT)
+            .maxCount(64)
+    );
+
+    public static final BlockItem UNEARTH = new BlockItem(ccBlocks.UNEARTH, new Item.Settings()
             .group(ccItems.CURSECRAFT)
             .maxCount(64)
     );
@@ -181,6 +191,8 @@ public class ccItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "starwood_leaves"), STARWOOD_LEAVES);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "sticky_slime_block"), STICKY_SLIME_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "advanced_workbench"), ADVANCED_WORKBENCH);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "unland"), UNLAND);
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "unearth"), UNEARTH);
 
     }
 

@@ -1,5 +1,6 @@
 package me.coopersully.Cursecraft;
 
+import com.mojang.authlib.exceptions.MinecraftClientHttpException;
 import me.coopersully.Cursecraft.blocks.AdvancedWorkbench.AdvancedWorkbenchRecipeSerializer;
 import me.coopersully.Cursecraft.blocks.AdvancedWorkbench.AdvancedWorkbenchRecipeType;
 import me.coopersully.Cursecraft.registry.ccBlocks;

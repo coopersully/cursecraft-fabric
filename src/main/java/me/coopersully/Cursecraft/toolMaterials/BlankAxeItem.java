@@ -7,7 +7,7 @@ import net.minecraft.item.ToolMaterial;
 public class BlankAxeItem extends AxeItem {
 
     public BlankAxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
-        super(Limbonic.TOOL_MATERIAL, 0, 0.0F, new Settings().group(ccItems.CURSECRAFT));
+        super(LimbonicToolMaterial.TOOL_MATERIAL, 0, 0.0F, new Settings().group(ccItems.CURSECRAFT));
     }
 
 

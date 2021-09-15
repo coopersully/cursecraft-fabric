@@ -8,6 +8,8 @@
   "block.cc.starwood_slab": "Starwood Slab",
   "block.cc.starwood_stairs": "Starwood Stairs",
   "block.cc.sticky_slime_block": "Sticky Slime Block",
+  "block.cc.unland": "Unland",
+  "block.cc.unearth": "Unearth",
   "container.cc.advanced_workbench": "Advanced Workbench",
   "effect.cc.detached": "Detached",
   "enchantment.cc.infused_poison": "Infused - Poison",

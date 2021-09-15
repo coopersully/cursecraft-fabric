@@ -80,6 +80,20 @@ public class ccBlocks {
             .sounds(BlockSoundGroup.WOOD)
     );
 
+    public static final Block UNLAND = new Block(FabricBlockSettings
+            .of(Material.STONE)
+            .sounds(BlockSoundGroup.NETHER_STEM)
+            .strength(3.0f, 10)
+            .breakByHand(true)
+    );
+
+    public static final Block UNEARTH = new Block(FabricBlockSettings
+            .of(Material.STONE)
+            .sounds(BlockSoundGroup.NETHER_BRICKS)
+            .strength(3.0f, 10)
+            .breakByHand(true)
+    );
+
     public static void register() {
 
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "metal_block"), METAL_BLOCK);
@@ -91,6 +105,8 @@ public class ccBlocks {
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "starwood_leaves"), STARWOOD_LEAVES);
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "sticky_slime_block"), STICKY_SLIME_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "advanced_workbench"), ADVANCED_WORKBENCH);
+        Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "unland"), UNLAND);
+        Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "unearth"), UNEARTH);
 
     }
 

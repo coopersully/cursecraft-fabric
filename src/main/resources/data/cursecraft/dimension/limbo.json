@@ -70,10 +70,10 @@
 	  "min_surface_level": 0,
 	  "noodle_caves_enabled": false,
       "default_block": {
-        "Name": "minecraft:black_concrete"
+        "Name": "cursecraft:unearth"
       },
       "default_fluid": {
-        "Name": "minecraft:black_concrete_powder",
+        "Name": "cursecraft:unland",
         "Properties": {
           "level": "0"
         }
